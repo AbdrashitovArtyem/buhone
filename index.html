@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BuhOne</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="wrapper">
+            <div class="header__container">
+                <div class="header__container-left" onclick="window.location = `/`;">
+                    <img src="img/logo.svg" alt="" class="logo">
+                    <h1 class="header__title">BuhOne</h1>
+                </div>
+
+                <div class="header__container-right">
+                    <div class="header__top">
+                        <ul class="header__info">
+                            <li class="header__info-item"
+                                style="background-image: url(img/phone.svg); background-repeat: no-repeat; "><a
+                                    href="tel:8 (111) 222-33-44">8 (111) 222-33-44</a></li>
+                            <li class="header__info-item"
+                                style="background-image: url(img/clock.svg); background-repeat: no-repeat; "><a
+                                    href="#">Пн-Пт 10:00-18:00</a></li>
+                            <li class="header__info-item"
+                                style="background-image: url(img/e-mail.svg); background-repeat: no-repeat; "><a
+                                    href="mailto:order@buhone.ru">order@buhone.ru</a></li>
+                            <li class="header__info-item"
+                                style="background-image: url(img/placeholder.svg); background-repeat: no-repeat; "><a
+                                    href="https://www.google.com/maps/place/%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+130,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191036/@59.930464,30.3668409,17z/data=!3m1!4b1!4m5!3m4!1s0x469631bb82e2fee7:0x66c603c9b63d947!8m2!3d59.930464!4d30.3668409">Невский
+                                    пр. 130</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__bottom" id="header__top">
+                        <ul class="header__nav">
+                            <li class="header__nav-item"><a href="#header" class="header__link">Главная</a></li>
+                            <li class="header__nav-item"><a href="#services" class="header__link">Услуги</a></li>
+                            <li class="header__nav-item"><a href="#cases" class="header__link">Кейсы</a></li>
+                            <li class="header__nav-item"><a href="#company" class="header__link">О компании</a></li>
+                            <li class="header__nav-item"><a href="#contact" class="header__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="navmob">
+                <div class="navmob__container">
+                    <div class="navmob__container-right">
+                        <img src="img/logo.svg" alt="" class="logo">
+                        <h1 class="header__title">BuhOne</h1>
+                    </div>
+
+                    <div class="navmob__container-left">
+                        <div class="hamb ">
+                            <span class="hamb-top"></span>
+                            <span class="hamb-bot"></span>
+                        </div>
+                        <div class="hamb-text">МЕНЮ</div>
+                    </div>
+                </div>
+
+                <div class="navmob__menu-hide">
+                    <div class="navmob__top-menu">
+                        <ul class="navmob__menu-info">
+                            <li class="navmob__menu-item">
+                                <div style="background-image: url(img/phone.svg); background-repeat: no-repeat; "></div>
+                                <a href="tel:8 (111) 222-33-44">8 (111) 222-33-44</a>
+                            </li>
+                            <li class="navmob__menu-item">
+                                <div style="background-image: url(img/clock.svg); background-repeat: no-repeat; "></div>
+                                <a>Пн-Пт 10:00-18:00</a>
+                            </li>
+                            <li class="navmob__menu-item">
+                                <div style="background-image: url(img/e-mail.svg); background-repeat: no-repeat; ">
+                                </div><a href="mailto:order@buhone.ru">order@buhone.ru</a>
+                            </li>
+                            <li class="navmob__menu-item">
+                                <div style="background-image: url(img/placeholder.svg); background-repeat: no-repeat; ">
+                                </div><a
+                                    href="https://www.google.com/maps/place/%D0%9D%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D1%80.,+130,+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3,+191036/@59.930464,30.3668409,17z/data=!3m1!4b1!4m5!3m4!1s0x469631bb82e2fee7:0x66c603c9b63d947!8m2!3d59.930464!4d30.3668409">Невский
+                                    пр. 130</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="navmob__bottom-menu" id="header__top">
+                        <ul class="navmob__nav">
+                            <li class="navmob__nav-item"><a href="#header" class="navmob__link">Главная</a></li>
+                            <li class="navmob__nav-item"><a href="#services" class="navmob__link">Услуги</a></li>
+                            <li class="navmob__nav-item"><a href="#clients" class="navmob__link">Клиенты</a></li>
+                            <li class="navmob__nav-item"><a href="#company" class="navmob__link">О компании</a></li>
+                            <li class="navmob__nav-item"><a href="#contact" class="navmob__link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__slaider">
+            <div class="wrapper">
+                <div class="header__slaider-slide">
+                    <div class="header__slaider-content">
+                        <h2 class="header__services">Бухгалтерские услуги <br> в Санкт-Петербурге</h2>
+                        <a href="#" class="header__btn">Наша презентация</a>
+                    </div>
+                    <div class="header__slaider-content">
+                        <h2 class="header__services">Бухгалтерские услуги <br> в Санкт-Петербурге</h2>
+                        <a href="#" class="header__btn">Наша презентация</a>
+                    </div>
+                    <div class="header__slaider-content">
+                        <h2 class="header__services">Бухгалтерские услуги <br> в Санкт-Петербурге</h2>
+                        <a href="#" class="header__btn">Наша презентация</a>
+                    </div>
+                    <div class="header__slaider-content">
+                        <h2 class="header__services">Бухгалтерские услуги <br> в Санкт-Петербурге</h2>
+                        <a href="#" class="header__btn">Наша презентация</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services" id="services">
+        <div class="wrapper">
+            <div class="services__top">
+                <p>Наши услуги</p>
+            </div>
+            <div class="services__middle">
+                <h2>Мы специализируемся</h2>
+            </div>
+            <div class="services__bottom">
+                <div class="services__bottom-item"
+                    style="background-image: url(img/services-block.svg); background-repeat: no-repeat; ">
+                    <div class="services__hover"></div>
+                    <h3>Бухгалтерская <br> услуга 1</h3>
+                </div>
+                <div class="services__bottom-item"
+                    style="background-image: url(img/services-block.svg); background-repeat: no-repeat;">
+                    <div class="services__hover"></div>
+                    <h3>Бухгалтерская <br> услуга 2</h3>
+                </div>
+                <div class="services__bottom-item"
+                    style="background-image: url(img/services-block.svg); background-repeat: no-repeat;">
+                    <div class="services__hover"></div>
+                    <h3>Бухгалтерская <br> услуга 3</h3>
+                </div>
+                <div class="services__bottom-item"
+                    style="background-image: url(img/services-block.svg); background-repeat: no-repeat;">
+                    <div class="services__hover"></div>
+                    <h3>Бухгалтерская <br> услуга 4</h3>
+                </div>
+                <div class="services__bottom-item"
+                    style="background-image: url(img/services-block.svg); background-repeat: no-repeat;">
+                    <div class="services__hover"></div>
+                    <h3>Бухгалтерская <br> услуга 5</h3>
+                </div>
+                <div class="services__bottom-item"
+                    style="background-image: url(img/services-block.svg); background-repeat: no-repeat;">
+                    <div class="services__hover"></div>
+                    <h3>Бухгалтерская <br> услуга 6</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="company" class="company">
+        <div class="wrapper">
+            <div class="company__container">
+                <div class="company__container-left">
+                    <h2>О нас</h2>
+                    <h3>Компания <br> <span>ИвановПром</span></h3>
+                    <div class="company__description">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                        вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя
+                        Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных
+                        изменений пять веков, но и перешагнул в электронный дизайн.</div>
+                </div>
+                <div class="company__container-right">
+                    <div class="company__box wow fadeInDown">
+                        <h2>90</h2>
+                        <h5>Завершено <br>крупных сделок</h5>
+                        <a href="#" class="company__box-item-right">Все кейсы</a>
+                    </div>
+                    <div class="company__box wow fadeInDown ">
+                        <h2>90</h2>
+                        <h5>Завершено <br>крупных сделок</h5>
+                        <a href="#" class="company__box-item-right">Все кейсы</a>
+                    </div>
+                    <div class="company__box wow fadeInDown ">
+                        <h2>90</h2>
+                        <h5>Завершено <br>крупных сделок</h5>
+                        <a href="#" class="company__box-item-right">Все кейсы</a>
+                    </div>
+                    <div class="company__box wow fadeInDown ">
+                        <h2>90</h2>
+                        <h5>Завершено <br>крупных сделок</h5>
+                        <a href="#" class="company__box-item-right">Все кейсы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="clients">
+        <div class="clients__slaider">
+            <div class="wrapper">
+                <p>Наши клиенты</p>
+                <h2>С нами работают</h2>
+                <div class="clients__slaider-slide">
+                    <div class="clients__slaider-content">
+                        <div class="clients__slaider-images">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                        </div>
+                    </div>
+                    <div class="clients__slaider-content">
+                        <div class="clients__slaider-images">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                        </div>
+                    </div>
+                    <div class="clients__slaider-content">
+                        <div class="clients__slaider-images">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                        </div>
+                    </div>
+                    <div class="clients__slaider-content">
+                        <div class="clients__slaider-images">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                            <img src="img/microsoft__img.svg" alt="microsoft logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="wrapper">
+            <h3>Отзывы</h3>
+            <h2>Ваши благодарности</h2>
+            <div class="reviews__slide">
+                <div class="reviews__slide-content">
+                    <div class="reviews__slide-review">
+                        <p class="reviews__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                            используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто
+                            используемый в печати и вэб-дизайне.</p>
+                        <div class="reviews__human">
+                            <img src="img/img__human.svg" alt="img_of_human">
+                            <div class="reviews__human-middle">
+                                <h4>Екатерина Иванова</h4>
+                                <p>Директор ООО “Раз-два”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__slide-content">
+                    <div class="reviews__slide-review">
+                        <p class="reviews__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                            используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто
+                            используемый в печати и вэб-дизайне.</p>
+                        <div class="reviews__human">
+                            <img src="img/img__human.svg" alt="img_of_human">
+                            <div class="reviews__human-middle">
+                                <h4>Екатерина Иванова</h4>
+                                <p>Директор ООО “Раз-два”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__slide-content">
+                    <div class="reviews__slide-review">
+                        <p class="reviews__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                            используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто
+                            используемый в печати и вэб-дизайне.</p>
+                        <div class="reviews__human">
+                            <img src="img/img__human.svg" alt="img_of_human">
+                            <div class="reviews__human-middle">
+                                <h4>Екатерина Иванова</h4>
+                                <p>Директор ООО “Раз-два”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__slide-content">
+                    <div class="reviews__slide-review">
+                        <p class="reviews__desc">Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                            вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI
+                            века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                            используя Lorem Ipsum для распечатки образцов. Lorem Ipsum - это текст-"рыба", часто
+                            используемый в печати и вэб-дизайне.</p>
+                        <div class="reviews__human">
+                            <img src="img/img__human.svg" alt="img_of_human">
+                            <div class="reviews__human-middle">
+                                <h4>Екатерина Иванова</h4>
+                                <p>Директор ООО “Раз-два”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="wrapper">
+            <div class="contact__container">
+                <div class="contact__container-left wow fadeInDown">
+                    <h2>Связь с нами</h2>
+                    <p class="contact__question">У вас остались вопросы? Напишите нам - мы ответим <br> в ближайшее
+                        время!</p>
+                    <div class="contact__contacts">
+                        <div class="contact__contacts-top">
+                            <div class="contact__first"></div>
+                            <a href="tel:+7 (111) 222-33-44" class="contact__contacts-link">+7 (111) 222-33-44</a>
+                        </div>
+                        <div class="contact__contacts-bottom">
+                            <div class="contact__second"></div>
+                            <a href="mailto:order@bu-one.ru" class="contact__contacts-link">order@bu-one.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__container-right wow fadeInDown" id="form">
+                    <div class="contact__top">
+                        <div class="contact__top-left">
+                            <h2>Email</h2>
+                            <input class="name" name="Email" id="email" type="email" placeholder="test@test.com">
+                        </div>
+                        <div class="contact__top-left">
+                            <h2>Телефон</h2>
+                            <input class="sename" id="phone" name="Телефон" type="phone"
+                                placeholder="+7 (111) 222-33-44">
+                        </div>
+                    </div>
+                    <div class="contact__top-bottom">
+                        <h2>Сообщение</h2>
+                        <textarea name="Сообщение" id="message" cols="30" rows="10"
+                            placeholder="Ваше сообщение"></textarea>
+                    </div>
+                    <button class="contact__btn">Отправить сообщение</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__container">
+                <h2>2022 &#169; Все права защищены.</h2>
+                <h2>Разработано: WebStudion</h2>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/qjuery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script src="js/slaider.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
